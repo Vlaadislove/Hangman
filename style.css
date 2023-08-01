@@ -83,7 +83,7 @@ input{
     background-color: red;
 }
 
-@media only screen and (min-device-width: 375px ) and (max-device-width: 667px) {
+/* @media only screen and (min-device-width: 375px ) and (max-device-width: 667px) {
     #guesses {
     text-align: center;
     font-size: 24pt;
@@ -116,4 +116,4 @@ img {
     padding-left: 10px;
 }
 
-}
+} */
