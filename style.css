@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@500;600&family=Poppins&family=Roboto+Slab&display=swap');
+body {
+    margin: 0;
+    background: rgb(102, 178, 255);
+}
+main {
+    max-width:  610px;
+    margin:  auto;
+
+}
+h1 {
+    text-align: center;
+    color: yellow
+}
+
+img {
+    padding-left: 90px;
+}
+
+#word {
+   margin-top: 20px;
+   text-align: center;
+   font-family: 'Poppins', sans-serif;
+   /* Убрать курсив */
+   font-weight: bold;
+   color: rgb(255, 255, 153);
+   font-size: 35px;
+   letter-spacing: 10px;
+}
+
+#controls {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-top: 20px;
+
+}
+
+input{
+    border-radius: 10px;
+    width: 210px;
+    font-size: 26px;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.button{
+    background-color: rgb(255, 255, 153);
+    border-radius: 15px;
+    cursor: pointer;
+    padding: 15px 25px;
+    font-size: 24px;
+    border: none;
+    font-family: 'Edu SA Beginner', cursive;
+}
+
+#guesses {
+    margin-top: 20px;
+    color: rgb(255, 255, 153);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Edu SA Beginner', cursive;
+}
+
+.guess {
+    margin: 5px;
+    padding: 10px;
+    border-radius: 15px;
+    border: 2px solid yellow;
+    cursor: pointer
+}
+
+.win {
+    color:white;
+    background-color: green;
+}
+
+.lost {
+    color: white;
+    background-color: red;
+}
+
+@media only screen and (min-device-width: 375px ) and (max-device-width: 667px) {
+    #guesses {
+    text-align: center;
+    font-size: 24pt;
+    color: rgb(255, 255, 153);
+    font-weight: bold;
+    font-family: 'Edu SA Beginner', cursive;
+  }
+
+  .guess {
+    padding: 30px;
+    display: inline-block;
+    border: 2px solid rgb(255, 255, 153);
+    border-radius: 10px;
+    margin: 10px;
+    cursor: pointer;
+  }
+  .button{
+    background-color: rgb(255, 255, 153);
+    border-radius: 15px;
+    cursor: pointer;
+    padding: 5px 10px;
+    font-size: 15px;
+    border: none;
+    font-family: 'Edu SA Beginner', cursive;
+}
+input {
+    width: 150px;
+}
+img {
+    padding-left: 10px;
+}
+
+}
