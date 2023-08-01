@@ -52,7 +52,7 @@ input{
     padding: 15px 25px;
     font-size: 24px;
     border: none;
-    font-family: 'Edu SA Beginner', cursive;
+    font-family: 'Edu SA Beginner';
 }
 
 #guesses {
@@ -62,7 +62,7 @@ input{
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    font-family: 'Edu SA Beginner', cursive;
+    font-family: 'Edu SA Beginner';
 }
 
 .guess {
@@ -89,7 +89,7 @@ input{
     font-size: 24pt;
     color: rgb(255, 255, 153);
     font-weight: bold;
-    font-family: 'Edu SA Beginner', cursive;
+    font-family: 'Edu SA Beginner';
   }
 
   .guess {
@@ -107,7 +107,7 @@ input{
     padding: 5px 10px;
     font-size: 15px;
     border: none;
-    font-family: 'Edu SA Beginner', cursive;
+    font-family: 'Edu SA Beginner';
 }
 input {
     width: 150px;
