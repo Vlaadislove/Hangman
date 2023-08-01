@@ -52,7 +52,7 @@ input{
     padding: 15px 25px;
     font-size: 24px;
     border: none;
-    font-family: 'Edu SA Beginner';
+    font-family: 'Edu SA Beginner', cursive;
 }
 
 #guesses {
@@ -62,7 +62,7 @@ input{
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    font-family: 'Edu SA Beginner';
+    font-family: 'Edu SA Beginner', cursive;
 }
 
 .guess {
@@ -81,4 +81,39 @@ input{
 .lost {
     color: white;
     background-color: red;
+}
+
+@media only screen and (min-device-width: 375px ) and (max-device-width: 667px) {
+    #guesses {
+    text-align: center;
+    font-size: 24pt;
+    color: rgb(255, 255, 153);
+    font-weight: bold;
+    font-family: 'Edu SA Beginner', cursive;
+  }
+
+  .guess {
+    padding: 30px;
+    display: inline-block;
+    border: 2px solid rgb(255, 255, 153);
+    border-radius: 10px;
+    margin: 10px;
+    cursor: pointer;
+  }
+  .button{
+    background-color: rgb(255, 255, 153);
+    border-radius: 15px;
+    cursor: pointer;
+    padding: 5px 10px;
+    font-size: 15px;
+    border: none;
+    font-family: 'Edu SA Beginner', cursive;
+}
+input {
+    width: 150px;
+}
+img {
+    padding-left: 10px;
+}
+
 }
